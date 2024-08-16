@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -23,19 +23,17 @@
     </header>
 
     <!--Home-->
-    <main>
-        <section id="home" class="topo">
-            <div>
-                <h1>BEM VINDO(A) AO MEU PORTIFÓLIO<span>.</span></h1>
-                <h2>Descrubra mais sobre mim e meus trabalhos.</h2>
+    <section id="home" class="topo">
+        <div>
+            <h1>BEM VINDO(A) AO MEU PORTIFÓLIO<span>.</span></h1>
+            <h2>Descrubra mais sobre mim e meus trabalhos.</h2>
 
-                <button class="btn">
-                    <a href="#sobre">Saber mais</a>
-                </button>
-            </div>
-            <img src="./img/logo.png" class="banner" alt="banner" />
-        </section>
-    </main>
+            <button class="btn">
+                <a href="#sobre">Saber mais</a>
+            </button>
+        </div>
+        <img src="./img/logo.png" class="banner" alt="banner" />
+    </section>
 
     <!--Seção Sobre-->
     <section id="sobre" class="secao2">
@@ -51,19 +49,34 @@
                 resolvendo bugs com persistencia em pesquisa.
 
             </p>
-            <h4>Tenho como hobbie:
-                <p><span>★</span> Assistir Séries</p>
-                <p><span>★</span> Ler livros</p>
-                <p><span>★</span> Escrever</p>
-            </h4>
         </div>
+        <div class="hobbies">
+            <h4>Tenho como hobbie:</h4>
+        </div>
+        <div class="secao2-div">
+            <!-- Card 1 -->
+            <div class="secao2-div-card">
+                <img decoding="async" src="./img/assistindo.png" alt="imagem do card 1">
+                <p>Assistir Séries</p>
+            </div>
 
-        <img src="./img/logo.png" class="banner" alt="banner" />
+            <!-- Card 2 -->
+            <div class="secao2-div-card">
+                <img decoding="async" src="./img/livros.png" alt="imagem do card 2">
+                <p>Ler Livros</p>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="secao2-div-card">
+                <img decoding="async" src="./img/escrever.png" alt="imagem do card 3">
+                <p>Escrever</p>
+            </div>
+        </div>
     </section>
 
     <!--Seção Formação-->
     <section id="formacao" class="secao3">
-        <h1>FORMAÇÃO ACADÊMICA</h1>
+        <h1>FORMAÇÃO</h1>
 
         <div class="text-principal">
             <h3>Cursando: Analise e Desenvolvimento de Sistemas - Universidade Internacional - Uninter (2024 - 2026)
@@ -72,35 +85,34 @@
 
         <div class="experiencia">
             <div class="info">
-                <h4>Cursos</h4>
-                <ul>
-                    <li><span>★</span>Introdução a criação de websites c/ HTML5 e CSS3</li>
-                    <li><span>★</span>Git e GitHub</li>
-                    <li><span>★</span>Fundamentos de lógica de
-                        programação</li>
-                    <li><span>★</span>Fundamentos de desenvolvimento
-                        web</li>
-                    <li><span>★</span>Java Script (intermediario)</li>
-                    <li><span>★</span>React.js</li>
-                    <li><span>★</span>Operações de computadores e
-                        dispositivos digitais</li>
-                    <li><span>★</span>Suporte de clientes digitais</li>
-                    <li><span>★</span>Resolução de problemas técnicos</li>
-                    <li><span>★</span>Técnicas de comunicação, vendas e
-                        gestão de crise</li>
-                    <li><span>★</span>Agilidade: Gestão efetiva de demandas</li>
-                </ul>
+                
+                <h4>Conhecimentos:</h4>
+
+                <div class="secao3-div">
+                    <!-- Card 1 -->
+                    <div class="secao3-div-card">
+                        <img decoding="async" src="./img/react (2).png" alt="imagem do card 1">
+                        <p>React.js</p>
+                    </div>
+        
+                    <!-- Card 2 -->
+                    <div class="secao3-div-card">
+                        <img decoding="async" src="./img/html.png" alt="imagem do card 2">
+                        <p>HTML5 & CSS3</p>
+                    </div>
+        
+                    <!-- Card 3 -->
+                    <div class="secao3-div-card">
+                        <img decoding="async" src="./img/git.png" alt="imagem do card 3">
+                        <p>Versionamento Git</p>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="secao3-div-card">
+                        <img decoding="async" src="./img/script-java (2).png" alt="imagem do card 3">
+                        <p>Java Script</p>
+                    </div>
+                </div>
             </div>
-            <div class="info">
-                <h4>Experiência</h4>
-                <ul>
-                    <li><span>★</span>React.js, Bootstrap, Chakra UI, UX/UI</li>
-                    <li><span>★</span>HTML5, CSS3, Java Script</li>
-                    <li><span>★</span>Controle de Versão: Git/GitHub</li>
-                    <li><span>★</span>Outras Ferramentas: Yarn, NPM, Notion, Canva</li>
-                </ul>
-            </div>
-            <img src="./img/chapeu.png" alt="imagem do chapeu" />
         </div>
     </section>
 
@@ -220,17 +232,6 @@
                     <button type="submit">Enviar</button>
                 </div>
             </form>
-        </div>
-        <div class="redes-sociais">
-            <a href="https://www.instagram.com/vitoriasnofc/" target="_blank"><img
-                    src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"
-                    target="_blank"></a>
-            <a href="mailto:vsn.gja@gmail.com"><img
-                    src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"
-                    target="_blank"></a>
-            <a href="https://www.linkedin.com/in/vit%C3%B3riasnocf/" target="_blank"><img
-                    src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"
-                    target="_blank"></a>
         </div>
 
     </section>
